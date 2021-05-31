@@ -1,0 +1,66 @@
+.online-teacher {
+  margin: 20px 100px;
+  font: normal normal bold 36px/100px Barlow Condensed;
+  color: #f0a500;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.gallery {
+  text-align: center;
+  position: relative;
+}
+.online {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  font: normal normal normal 10px/103px Quattrocento Sans;
+  color: #13e052;
+  text-transform: uppercase;
+  opacity: 1;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #f0a500;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 90%;
+  font-size: 14px;
+}
+
+.image-carousel {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.image-carousel,
+.gallery img {
+  display: -webkit-box;
+  padding: 10px;
+}
+.para {
+  margin-top: -60px;
+}
+.btn-private {
+  width: 260px;
+}
+
+.gallery img {
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.tokens {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+  top: -50px;
+}

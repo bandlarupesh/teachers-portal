@@ -1,0 +1,144 @@
+.subheader {
+  display: flex;
+  align-items: center;
+  margin: 50px 100px;
+}
+
+.welcome-text {
+  width: 130px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 18px/120px Quattrocento Sans;
+  letter-spacing: 1.8px;
+  color: #d6d6d6;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.char-t,
+.char-e,
+.char-a,
+.char-c,
+.char-h,
+.char-e,
+.char-r,
+.char-s {
+  font-size: 90px;
+  font-weight: bold;
+  color: transparent;
+  background-position: center;
+  background-clip: text;
+  margin-left: 8px;
+}
+.char-t {
+  background-image: url("../assets/image7.png");
+}
+
+.char-e {
+  background-image: url("../assets/image2.png");
+}
+
+.char-a {
+  background-image: url("../assets/image3.png");
+}
+
+.char-c {
+  background-image: url("../assets/image4.png");
+}
+
+.char-h {
+  background-image: url("../assets/image1.png");
+}
+
+.char-e {
+  background-image: url("../assets/image2.png");
+}
+
+.char-r {
+  background-image: url("../assets/image3.png");
+}
+.char-s {
+  background-image: url("../assets/image6.png");
+}
+
+.portal {
+  width: 605px;
+  height: 175px;
+  text-align: left;
+  font: normal normal 900 100px/110px Barlow;
+  color: #f0a500;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.left-menu {
+  width: 58%;
+  float: left;
+  padding: 15px;
+}
+.right-menu {
+  width: 42%;
+  float: left;
+  padding: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  float: left;
+  padding: 5px;
+}
+
+.img-btn {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 0;
+}
+
+.button {
+  position: absolute;
+  width: 220px;
+  left: 0;
+  top: 214px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.button button {
+  width: 250px;
+  padding: 12px 48px;
+  text-align: center;
+  color: black;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+.exclusive span{
+  height: 20px;
+  text-align: left;
+  font: normal normal medium 14px/103px Teko;
+  letter-spacing: 1.4px;
+  color: #181310;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  background-color: #f0a500;
+  padding: 2px;
+  border-radius: 0 5px;
+}
+.tokens-subheader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+  top: 170px;
+}
